@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "minor_version": 3,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "98943bf49223ff6d896fce354498b3a2"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "hw_version": null,
+                "entry_type": "service",
+                "id": "ec15cbfe503aa17916a46194baf9a726",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": "https://www.met.no/en"
+            },
+            {
+                "config_entries": [
+                    "e0a57715d83380883a76aaee33a0b51c"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "2847cc3a37bcb64a"
+                    ]
+                ],
+                "manufacturer": "HUAWEI",
+                "model": "JNY-LX1",
+                "name": "JNY-LX1",
+                "sw_version": "29",
+                "hw_version": null,
+                "entry_type": null,
+                "id": "94a250250f958afbc15cb84b22f4dcd1",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null,
+                "configuration_url": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}

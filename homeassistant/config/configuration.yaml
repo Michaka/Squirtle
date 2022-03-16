@@ -1,0 +1,29 @@
+panel_iframe:
+  portainer:
+    title: "Portainer"
+    url: "http://192.168.0.106:9000/#/containers"
+    icon: mdi:docker
+    require_admin: true
+
+  windy:
+    title: "Windy"
+    url: "https://embed.windy.com/embed2.html?lat=41.944&lon=25.741&detailLat=41.944&detailLon=25.741&width=650&height=450&zoom=8&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"
+    icon: mdi:docker
+
+mqtt:
+  broker: 127.0.0.1
+  port: 1883
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+sensor: !include sensor.yaml
+button: !include button.yaml
+switch: !include switch.yaml

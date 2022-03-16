@@ -1,0 +1,105 @@
+2022-03-16 22:27:46 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2022-03-16 22:27:46 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=42 from 2022-03-16 20:22:06.858146)
+2022-03-16 22:27:56 WARNING (MainThread) [homeassistant.components.mqtt] The 'broker' option near /config/configuration.yaml:13 is deprecated, please remove it from your configuration
+2022-03-16 22:27:56 WARNING (MainThread) [homeassistant.components.mqtt] The 'port' option near /config/configuration.yaml:13 is deprecated, please remove it from your configuration
+2022-03-16 22:27:56 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect to MQTT server due to exception: [Errno 111] Connection refused
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.tomato_moisture')|int < 30 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.tomato_moisture')|int < 30 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.tomato_moisture')|int > 70 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.tomato_moisture')|int > 70 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.potato_moisture')|int < 30 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.potato_moisture')|int < 30 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.potato_moisture')|int > 70 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.potato_moisture')|int > 70 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.cucumber_moisture')|int < 30 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.cucumber_moisture')|int < 30 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.cucumber_moisture')|int > 70 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.cucumber_moisture')|int > 70 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.pepper_moisture')|int < 30 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.pepper_moisture')|int < 30 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.pepper_moisture')|int > 70 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.pepper_moisture')|int > 70 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.watermelon_moisture')|int < 30 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.watermelon_moisture')|int < 30 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.watermelon_moisture')|int > 70 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1
+2022-03-16 22:28:03 WARNING (MainThread) [homeassistant.helpers.template] Template warning: 'int' got invalid input 'unavailable' when rendering template '{% if states('sensor.watermelon_moisture')|int > 70 %}
+  true
+{% else %}
+  false
+{% endif %}' but no default was specified. Currently 'int' will return '0', however this template will fail to render in Home Assistant core 2022.1

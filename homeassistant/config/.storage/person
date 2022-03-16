@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "minor_version": 1,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Akatim",
+                "user_id": "8f9b34a98b60439c93feeac6d784114c",
+                "device_trackers": [
+                    "device_tracker.jny_lx1"
+                ],
+                "id": "akatim"
+            }
+        ]
+    }
+}

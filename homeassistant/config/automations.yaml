@@ -1,0 +1,140 @@
+- id: '1647276167929'
+  alias: Tomato Valve Turn On
+  description: ''
+  trigger:
+  - platform: template
+    value_template: "{% if states('sensor.tomato_moisture')|int < 30 %}\n  true\n\
+      {% else %}\n  false\n{% endif %}"
+  condition: []
+  action:
+  - service: switch.turn_on
+    data: {}
+    target:
+      entity_id: switch.tomato_valve_switch
+  mode: single
+- id: '1647276482890'
+  alias: Tomato Valve Turn Off
+  description: ''
+  trigger:
+  - platform: template
+    value_template: "{% if states('sensor.tomato_moisture')|int > 70 %}\n  true\n\
+      {% else %}\n  false\n{% endif %}"
+  condition: []
+  action:
+  - service: switch.turn_off
+    data: {}
+    target:
+      entity_id: switch.tomato_valve_switch
+  mode: single
+- id: '1647296590395'
+  alias: Potato Valve Turn On
+  description: ''
+  trigger:
+  - platform: template
+    value_template: "{% if states('sensor.potato_moisture')|int < 30 %}\n  true\n\
+      {% else %}\n  false\n{% endif %}"
+  condition: []
+  action:
+  - service: switch.turn_on
+    data: {}
+    target:
+      entity_id: switch.potato_valve_switch
+  mode: single
+- id: '1647296668246'
+  alias: Potato Valve Turn Off
+  description: ''
+  trigger:
+  - platform: template
+    value_template: "{% if states('sensor.potato_moisture')|int > 70 %}\n  true\n\
+      {% else %}\n  false\n{% endif %}"
+  condition: []
+  action:
+  - service: switch.turn_off
+    data: {}
+    target:
+      entity_id: switch.potato_valve_switch
+  mode: single
+- id: '1647296778042'
+  alias: Cucumber Valve Turn On
+  description: ''
+  trigger:
+  - platform: template
+    value_template: "{% if states('sensor.cucumber_moisture')|int < 30 %}\n  true\n\
+      {% else %}\n  false\n{% endif %}"
+  condition: []
+  action:
+  - service: switch.turn_on
+    data: {}
+    target:
+      entity_id: switch.cucumber_valve_switch
+  mode: single
+- id: '1647296816110'
+  alias: Cucumber Valve Turn Off
+  description: ''
+  trigger:
+  - platform: template
+    value_template: "{% if states('sensor.cucumber_moisture')|int > 70 %}\n  true\n\
+      {% else %}\n  false\n{% endif %}"
+  condition: []
+  action:
+  - service: switch.turn_off
+    data: {}
+    target:
+      entity_id: switch.cucumber_valve_switch
+  mode: single
+- id: '1647296909525'
+  alias: Pepper Valve Turn On
+  description: ''
+  trigger:
+  - platform: template
+    value_template: "{% if states('sensor.pepper_moisture')|int < 30 %}\n  true\n\
+      {% else %}\n  false\n{% endif %}"
+  condition: []
+  action:
+  - service: switch.turn_on
+    data: {}
+    target:
+      entity_id: switch.pepper_valve_switch
+  mode: single
+- id: '1647296942809'
+  alias: Pepper Valve Turn Off
+  description: ''
+  trigger:
+  - platform: template
+    value_template: "{% if states('sensor.pepper_moisture')|int > 70 %}\n  true\n\
+      {% else %}\n  false\n{% endif %}"
+  condition: []
+  action:
+  - service: switch.turn_off
+    data: {}
+    target:
+      entity_id: switch.pepper_valve_switch
+  mode: single
+- id: '1647297115458'
+  alias: Watermelon Valve Turn On
+  description: ''
+  trigger:
+  - platform: template
+    value_template: "{% if states('sensor.watermelon_moisture')|int < 30 %}\n  true\n\
+      {% else %}\n  false\n{% endif %}"
+  condition: []
+  action:
+  - service: switch.turn_on
+    data: {}
+    target:
+      entity_id: switch.watermelon_valve_switch
+  mode: single
+- id: '1647297166209'
+  alias: Watermelon Valve Turn Off
+  description: ''
+  trigger:
+  - platform: template
+    value_template: "{% if states('sensor.watermelon_moisture')|int > 70 %}\n  true\n\
+      {% else %}\n  false\n{% endif %}"
+  condition: []
+  action:
+  - service: switch.turn_off
+    data: {}
+    target:
+      entity_id: switch.watermelon_valve_switch
+  mode: single

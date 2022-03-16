@@ -1,0 +1,90 @@
+- platform: mqtt
+  name: Potato Valve Switch
+  unique_id: potato_valve_switch
+  state_topic: "garden/potato/valve/state"
+  command_topic: "garden/potato/valve/state"
+  payload_on: "ON"
+  payload_off: "OFF"
+  state_on: "ON"
+  state_off: "OFF"
+  optimistic: false
+  qos: 0
+  retain: true
+
+- platform: mqtt
+  name: Tomato Valve Switch
+  unique_id: tomato_valve_switch
+  state_topic: "garden/tomato/valve/state"
+  command_topic: "garden/tomato/valve/state"
+  payload_on: "ON"
+  payload_off: "OFF"
+  state_on: "ON"
+  state_off: "OFF"
+  optimistic: false
+  qos: 0
+  retain: true
+
+- platform: mqtt
+  name: Cucumber Valve Switch
+  unique_id: cucumber_valve_switch
+  state_topic: "garden/cucumber/valve/state"
+  command_topic: "garden/cucumber/valve/state"
+  payload_on: "ON"
+  payload_off: "OFF"
+  state_on: "ON"
+  state_off: "OFF"
+  optimistic: false
+  qos: 0
+  retain: true
+
+- platform: mqtt
+  name: Watermelon Valve Switch
+  unique_id: watermelon_valve_switch
+  state_topic: "garden/watermelon/valve/state"
+  command_topic: "garden/watermelon/valve/state"
+  payload_on: "ON"
+  payload_off: "OFF"
+  state_on: "ON"
+  state_off: "OFF"
+  optimistic: false
+  qos: 0
+  retain: true
+
+- platform: mqtt
+  name: Pepper Valve Switch
+  unique_id: pepper_valve_switch
+  state_topic: "garden/pepper/valve/state"
+  command_topic: "garden/pepper/valve/state"
+  payload_on: "ON"
+  payload_off: "OFF"
+  state_on: "ON"
+  state_off: "OFF"
+  optimistic: false
+  qos: 0
+  retain: true
+
+- platform: mqtt
+  name: Irrigation Pump Switch
+  unique_id: irrigation_pump_switch
+  state_topic: "garden/irrigation/pump/state"
+  command_topic: "garden/irrigation/pump/state"
+  payload_on: "ON"
+  payload_off: "OFF"
+  state_on: "ON"
+  state_off: "OFF"
+  optimistic: false
+  qos: 0
+  retain: true
+
+- platform: mqtt
+  name: Sink Pump Switch
+  unique_id: sink_pump_switch
+  state_topic: "garden/sink/pump/state"
+  command_topic: "garden/sink/pump/state"
+  payload_on: "ON"
+  payload_off: "OFF"
+  state_on: "ON"
+  state_off: "OFF"
+  optimistic: false
+  qos: 0
+  retain: true

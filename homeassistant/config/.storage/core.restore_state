@@ -1,0 +1,1196 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.akatim",
+                "state": "unknown",
+                "attributes": {
+                    "editable": false,
+                    "id": "akatim",
+                    "user_id": "8f9b34a98b60439c93feeac6d784114c",
+                    "friendly_name": "Akatim"
+                },
+                "last_changed": "2022-03-16T20:27:49.878445+00:00",
+                "last_updated": "2022-03-16T20:28:03.807247+00:00",
+                "context": {
+                    "id": "4dafd9657bd91a544f4bba7ea33063de",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.new_automation",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-03-15T14:19:36.263221+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1647276167929",
+                    "friendly_name": "Tomato Valve Turn On"
+                },
+                "last_changed": "2022-03-16T20:27:57.277259+00:00",
+                "last_updated": "2022-03-16T20:27:57.277259+00:00",
+                "context": {
+                    "id": "1ba286e8e386560ca90314958ff7d130",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.tomato_valve_turn_off",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-03-15T14:19:43.066652+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1647276482890",
+                    "friendly_name": "Tomato Valve Turn Off"
+                },
+                "last_changed": "2022-03-16T20:27:57.277443+00:00",
+                "last_updated": "2022-03-16T20:27:57.277443+00:00",
+                "context": {
+                    "id": "572417f7327082c23f404ad05c2e3164",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.potato_valve_turn_on",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-03-15T01:10:26.267316+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1647296590395",
+                    "friendly_name": "Potato Valve Turn On"
+                },
+                "last_changed": "2022-03-16T20:27:57.277613+00:00",
+                "last_updated": "2022-03-16T20:27:57.277613+00:00",
+                "context": {
+                    "id": "7ca12c67360e8bea6d86ef26f9ff717a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.potato_valve_turn_off",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-03-14T23:49:30.463886+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1647296668246",
+                    "friendly_name": "Potato Valve Turn Off"
+                },
+                "last_changed": "2022-03-16T20:27:57.277805+00:00",
+                "last_updated": "2022-03-16T20:27:57.277805+00:00",
+                "context": {
+                    "id": "1944ee1fd4b68aeb60741296fa8f2b14",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.cucumber_valve_turn_on",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-03-15T01:10:26.267778+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1647296778042",
+                    "friendly_name": "Cucumber Valve Turn On"
+                },
+                "last_changed": "2022-03-16T20:27:57.277964+00:00",
+                "last_updated": "2022-03-16T20:27:57.277964+00:00",
+                "context": {
+                    "id": "9aba6909eb5e52c47e0666acea414b7d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.cucumber_valve_turn_off",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-03-14T23:49:49.928505+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1647296816110",
+                    "friendly_name": "Cucumber Valve Turn Off"
+                },
+                "last_changed": "2022-03-16T20:27:57.278094+00:00",
+                "last_updated": "2022-03-16T20:27:57.278094+00:00",
+                "context": {
+                    "id": "96bbd3b26c3ce8017f42c3c6fad638a9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.pepper_valve_turn_on",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-03-15T01:10:26.267525+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1647296909525",
+                    "friendly_name": "Pepper Valve Turn On"
+                },
+                "last_changed": "2022-03-16T20:27:57.278225+00:00",
+                "last_updated": "2022-03-16T20:27:57.278225+00:00",
+                "context": {
+                    "id": "aa00bc470962785916154f712ca411e3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.pepper_valve_turn_off",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-03-14T23:48:57.423594+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1647296942809",
+                    "friendly_name": "Pepper Valve Turn Off"
+                },
+                "last_changed": "2022-03-16T20:27:57.278353+00:00",
+                "last_updated": "2022-03-16T20:27:57.278353+00:00",
+                "context": {
+                    "id": "e1b9bd74281039d1776dd921fa83a7f7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.watermelon_valve_turn_on",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-03-15T10:48:46.497731+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1647297115458",
+                    "friendly_name": "Watermelon Valve Turn On"
+                },
+                "last_changed": "2022-03-16T20:27:57.278481+00:00",
+                "last_updated": "2022-03-16T20:27:57.278481+00:00",
+                "context": {
+                    "id": "ba1dee872ed9a93ac545d3094a076e95",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.watermelon_valve_turn_off",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2022-03-15T10:48:50.830318+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1647297166209",
+                    "friendly_name": "Watermelon Valve Turn Off"
+                },
+                "last_changed": "2022-03-16T20:27:57.278609+00:00",
+                "last_updated": "2022-03-16T20:27:57.278609+00:00",
+                "context": {
+                    "id": "d06e5f35190762165aab3f5447d552d3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.tomato_moisture",
+                "state": "unavailable",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Tomato Moisture"
+                },
+                "last_changed": "2022-03-16T20:27:57.284012+00:00",
+                "last_updated": "2022-03-16T20:27:57.284012+00:00",
+                "context": {
+                    "id": "fd8b849b327f36349593d972101e9b2f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.potato_moisture",
+                "state": "unavailable",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Potato Moisture"
+                },
+                "last_changed": "2022-03-16T20:27:57.284413+00:00",
+                "last_updated": "2022-03-16T20:27:57.284413+00:00",
+                "context": {
+                    "id": "c9c47e509bda86a24a7142a9f59dcaba",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.pepper_moisture",
+                "state": "unavailable",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Pepper Moisture"
+                },
+                "last_changed": "2022-03-16T20:27:57.284685+00:00",
+                "last_updated": "2022-03-16T20:27:57.284685+00:00",
+                "context": {
+                    "id": "1005f7e30bb0023a8859aa12d6a8c99b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.cucumber_moisture",
+                "state": "unavailable",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Cucumber Moisture"
+                },
+                "last_changed": "2022-03-16T20:27:57.285022+00:00",
+                "last_updated": "2022-03-16T20:27:57.285022+00:00",
+                "context": {
+                    "id": "7bb80f295afc5790fbab7aa72aa1be36",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.watermelon_moisture",
+                "state": "unavailable",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Watermelon Moisture"
+                },
+                "last_changed": "2022-03-16T20:27:57.285271+00:00",
+                "last_updated": "2022-03-16T20:27:57.285271+00:00",
+                "context": {
+                    "id": "c2769692413b124a3fe622148fdad4ec",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.irrigation_pump_waterflow_sensor_2",
+                "state": "unavailable",
+                "attributes": {
+                    "unit_of_measurement": "l/m",
+                    "friendly_name": "Irrigation Pump Waterflow Sensor"
+                },
+                "last_changed": "2022-03-16T20:27:57.285508+00:00",
+                "last_updated": "2022-03-16T20:27:57.285508+00:00",
+                "context": {
+                    "id": "4625ed4fca02abb59addd8348e46cdf0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "l/m"
+            },
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sink_pump_waterflow_sensor_2",
+                "state": "unavailable",
+                "attributes": {
+                    "unit_of_measurement": "l/m",
+                    "friendly_name": "Sink Pump Waterflow Sensor"
+                },
+                "last_changed": "2022-03-16T20:27:57.285968+00:00",
+                "last_updated": "2022-03-16T20:27:57.285968+00:00",
+                "context": {
+                    "id": "966fd30b6800c6e180d7d917ef0436fd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "l/m"
+            },
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.container_water_level",
+                "state": "unavailable",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Container Water Level"
+                },
+                "last_changed": "2022-03-16T20:27:57.286210+00:00",
+                "last_updated": "2022-03-16T20:27:57.286210+00:00",
+                "context": {
+                    "id": "eafc2c3f41a1ab74638781f78ac7cbf7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.tomato_moisture_front",
+                "state": "unavailable",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Tomato Moisture Front"
+                },
+                "last_changed": "2022-03-16T20:27:57.286448+00:00",
+                "last_updated": "2022-03-16T20:27:57.286448+00:00",
+                "context": {
+                    "id": "600e05aebe8e17b4d7473b494a93d42f",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.potato_moisture_front",
+                "state": "unavailable",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Potato Moisture Front"
+                },
+                "last_changed": "2022-03-16T20:27:57.286761+00:00",
+                "last_updated": "2022-03-16T20:27:57.286761+00:00",
+                "context": {
+                    "id": "55996fef306a14333bea3a9c6749428a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.pepper_moisture_front",
+                "state": "unavailable",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Pepper Moisture Front"
+                },
+                "last_changed": "2022-03-16T20:27:57.286991+00:00",
+                "last_updated": "2022-03-16T20:27:57.286991+00:00",
+                "context": {
+                    "id": "38bed6deff03b934a8aac8578a4e7ae9",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.cucumber_moisture_front_3",
+                "state": "unavailable",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Cucumber Moisture Front"
+                },
+                "last_changed": "2022-03-16T20:27:57.287229+00:00",
+                "last_updated": "2022-03-16T20:27:57.287229+00:00",
+                "context": {
+                    "id": "95b17baf028373ff5bb9fdc32ece22dd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.potato_valve_switch",
+                "state": "unavailable",
+                "attributes": {
+                    "friendly_name": "Potato Valve Switch"
+                },
+                "last_changed": "2022-03-16T20:27:57.287503+00:00",
+                "last_updated": "2022-03-16T20:27:57.287503+00:00",
+                "context": {
+                    "id": "a37a2ddce2e6c6bb3ad584e956b715fc",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.tomato_valve_switch",
+                "state": "unavailable",
+                "attributes": {
+                    "friendly_name": "Tomato Valve Switch"
+                },
+                "last_changed": "2022-03-16T20:27:57.287838+00:00",
+                "last_updated": "2022-03-16T20:27:57.287838+00:00",
+                "context": {
+                    "id": "b3974d1750f2205b40de75d0a20c7976",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.cucumber_valve_switch",
+                "state": "unavailable",
+                "attributes": {
+                    "friendly_name": "Cucumber Valve Switch"
+                },
+                "last_changed": "2022-03-16T20:27:57.288090+00:00",
+                "last_updated": "2022-03-16T20:27:57.288090+00:00",
+                "context": {
+                    "id": "4e9b5fb5a4adac64ed128efd1521c0d4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.watermelon_valve_switch",
+                "state": "unavailable",
+                "attributes": {
+                    "friendly_name": "Watermelon Valve Switch"
+                },
+                "last_changed": "2022-03-16T20:27:57.288384+00:00",
+                "last_updated": "2022-03-16T20:27:57.288384+00:00",
+                "context": {
+                    "id": "34fb0e7cabfcfc977faf391a7c05f6a0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.pepper_valve_switch",
+                "state": "unavailable",
+                "attributes": {
+                    "friendly_name": "Pepper Valve Switch"
+                },
+                "last_changed": "2022-03-16T20:27:57.288700+00:00",
+                "last_updated": "2022-03-16T20:27:57.288700+00:00",
+                "context": {
+                    "id": "482090a576e2b86a77ad708441dcc8a5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.irrigation_pump_switch",
+                "state": "unavailable",
+                "attributes": {
+                    "friendly_name": "Irrigation Pump Switch"
+                },
+                "last_changed": "2022-03-16T20:27:57.289824+00:00",
+                "last_updated": "2022-03-16T20:27:57.289824+00:00",
+                "context": {
+                    "id": "936ea71317c771d55f3266cf25c28f03",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.sink_pump_switch",
+                "state": "unavailable",
+                "attributes": {
+                    "friendly_name": "Sink Pump Switch"
+                },
+                "last_changed": "2022-03-16T20:27:57.290082+00:00",
+                "last_updated": "2022-03-16T20:27:57.290082+00:00",
+                "context": {
+                    "id": "2ccc20b9bf9301e157adbf092473f8dc",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.jny_lx1_battery_level",
+                "state": "29",
+                "attributes": {
+                    "state_class": "measurement",
+                    "unit_of_measurement": "%",
+                    "device_class": "battery",
+                    "icon": "mdi:battery-20",
+                    "friendly_name": "JNY-LX1 Battery Level"
+                },
+                "last_changed": "2022-03-16T20:28:03.715004+00:00",
+                "last_updated": "2022-03-16T20:28:03.715004+00:00",
+                "context": {
+                    "id": "c78f58db02868699377ff66b0044b54d",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.jny_lx1_battery_state",
+                "state": "discharging",
+                "attributes": {
+                    "icon": "mdi:battery-minus",
+                    "friendly_name": "JNY-LX1 Battery State"
+                },
+                "last_changed": "2022-03-16T20:28:03.715181+00:00",
+                "last_updated": "2022-03-16T20:28:03.715181+00:00",
+                "context": {
+                    "id": "70ba4797f0b16bd3aeed3ec9881a02f5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.jny_lx1_charger_type",
+                "state": "none",
+                "attributes": {
+                    "icon": "mdi:battery",
+                    "friendly_name": "JNY-LX1 Charger Type"
+                },
+                "last_changed": "2022-03-16T20:28:03.715294+00:00",
+                "last_updated": "2022-03-16T20:28:03.715294+00:00",
+                "context": {
+                    "id": "888daa0bd12879dac6379d17a0f6e646",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.jny_lx1_battery_health",
+                "state": "good",
+                "attributes": {
+                    "icon": "mdi:battery-heart-variant",
+                    "friendly_name": "JNY-LX1 Battery Health"
+                },
+                "last_changed": "2022-03-16T20:28:03.715402+00:00",
+                "last_updated": "2022-03-16T20:28:03.715402+00:00",
+                "context": {
+                    "id": "5722ddb7fb55abc11a40ad3f34354426",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.jny_lx1_battery_temperature",
+                "state": "24.0",
+                "attributes": {
+                    "state_class": "measurement",
+                    "unit_of_measurement": "\u00b0C",
+                    "device_class": "temperature",
+                    "icon": "mdi:battery",
+                    "friendly_name": "JNY-LX1 Battery Temperature"
+                },
+                "last_changed": "2022-03-16T20:28:03.715511+00:00",
+                "last_updated": "2022-03-16T20:28:03.715511+00:00",
+                "context": {
+                    "id": "4c4f693085eb550bc25f4700f0f72500",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.jny_lx1",
+                "state": "unknown",
+                "attributes": {
+                    "source_type": "gps",
+                    "friendly_name": "JNY-LX1"
+                },
+                "last_changed": "2022-03-16T20:28:03.758053+00:00",
+                "last_updated": "2022-03-16T20:28:03.758053+00:00",
+                "context": {
+                    "id": "989308681590fef33715edf15a062332",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "binary_sensor.jny_lx1_is_charging",
+                "state": "off",
+                "attributes": {
+                    "device_class": "plug",
+                    "icon": "mdi:power-plug-off",
+                    "friendly_name": "JNY-LX1 Is Charging"
+                },
+                "last_changed": "2022-03-16T20:28:03.759529+00:00",
+                "last_updated": "2022-03-16T20:28:03.759529+00:00",
+                "context": {
+                    "id": "0400a0e203ef59588cb7a5c7b82d0c6a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-16T20:43:03.808350+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.tomato_valve",
+                "state": "off",
+                "attributes": {
+                    "supported_color_modes": [
+                        "onoff"
+                    ],
+                    "friendly_name": "Tomato Valve",
+                    "supported_features": 0
+                },
+                "last_changed": "2022-03-14T23:13:14.776411+00:00",
+                "last_updated": "2022-03-14T23:13:14.776411+00:00",
+                "context": {
+                    "id": "8cc61149985210974f291ba3348f1bb5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-14T23:44:25.266370+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.potato_valve",
+                "state": "off",
+                "attributes": {
+                    "supported_color_modes": [
+                        "onoff"
+                    ],
+                    "friendly_name": "Potato Valve",
+                    "supported_features": 0
+                },
+                "last_changed": "2022-03-14T23:14:09.493178+00:00",
+                "last_updated": "2022-03-14T23:14:09.493178+00:00",
+                "context": {
+                    "id": "f8fa1b67011076bd5835e765a7975b8e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-14T23:44:25.266370+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.pepper_valve",
+                "state": "off",
+                "attributes": {
+                    "supported_color_modes": [
+                        "onoff"
+                    ],
+                    "friendly_name": "Pepper Valve",
+                    "supported_features": 0
+                },
+                "last_changed": "2022-03-14T23:13:34.187486+00:00",
+                "last_updated": "2022-03-14T23:13:34.187486+00:00",
+                "context": {
+                    "id": "d66914f5fe25854313a51a76a82cc1a5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-14T23:44:25.266370+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.cucumber_valve",
+                "state": "off",
+                "attributes": {
+                    "supported_color_modes": [
+                        "onoff"
+                    ],
+                    "friendly_name": "Cucumber Valve",
+                    "supported_features": 0
+                },
+                "last_changed": "2022-03-14T23:11:59.818073+00:00",
+                "last_updated": "2022-03-14T23:11:59.818073+00:00",
+                "context": {
+                    "id": "0fc2a42c3833c8182687f8abead5d06a",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-14T23:44:25.266370+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.watermelon_valve",
+                "state": "off",
+                "attributes": {
+                    "supported_color_modes": [
+                        "onoff"
+                    ],
+                    "friendly_name": "Watermelon Valve",
+                    "supported_features": 0
+                },
+                "last_changed": "2022-03-14T23:12:37.370127+00:00",
+                "last_updated": "2022-03-14T23:12:37.370127+00:00",
+                "context": {
+                    "id": "27412b74cc58b6d3025b229eae3a191b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-14T23:44:25.266370+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.irrigation_pump",
+                "state": "unknown",
+                "attributes": {
+                    "supported_color_modes": [
+                        "onoff"
+                    ],
+                    "friendly_name": "Irrigation Pump",
+                    "supported_features": 0
+                },
+                "last_changed": "2022-03-14T23:10:33.547881+00:00",
+                "last_updated": "2022-03-14T23:10:33.547881+00:00",
+                "context": {
+                    "id": "bb33421ad0d7a21fcd0996909907c148",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-14T23:44:25.266370+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "light.sink_pump",
+                "state": "unknown",
+                "attributes": {
+                    "supported_color_modes": [
+                        "onoff"
+                    ],
+                    "friendly_name": "Sink Pump",
+                    "supported_features": 0
+                },
+                "last_changed": "2022-03-14T23:10:33.549707+00:00",
+                "last_updated": "2022-03-14T23:10:33.549707+00:00",
+                "context": {
+                    "id": "9c5becde7d1fd84862ce4a1ba07ce786",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": null,
+            "last_seen": "2022-03-14T23:44:25.266370+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.potato_moisture_2",
+                "state": "70",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Potato Moisture"
+                },
+                "last_changed": "2022-03-14T22:18:35.669090+00:00",
+                "last_updated": "2022-03-14T22:18:35.669090+00:00",
+                "context": {
+                    "id": "21c82976ff03d768ba5fec89e94cdca7",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": "70",
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-14T22:20:34.620162+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.pepper_moisture_2",
+                "state": "unknown",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Pepper Moisture"
+                },
+                "last_changed": "2022-03-14T22:12:54.003743+00:00",
+                "last_updated": "2022-03-14T22:12:54.003743+00:00",
+                "context": {
+                    "id": "f83e2d3c5e027a62129039fab4931722",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-14T22:20:34.620162+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.cucumber_moisture_2",
+                "state": "unknown",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Cucumber Moisture"
+                },
+                "last_changed": "2022-03-14T22:12:54.010548+00:00",
+                "last_updated": "2022-03-14T22:12:54.010548+00:00",
+                "context": {
+                    "id": "ddb9b00b939c077d58d2ce07d9ab5112",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-14T22:20:34.620162+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.watermelon_moisture_2",
+                "state": "unknown",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Watermelon Moisture"
+                },
+                "last_changed": "2022-03-14T22:12:54.031126+00:00",
+                "last_updated": "2022-03-14T22:12:54.031126+00:00",
+                "context": {
+                    "id": "b9bd19c801f3cdeee1bab5c03207bee8",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-14T22:20:34.620162+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.tomato_moisture_front_2",
+                "state": "unknown",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Tomato Moisture Front"
+                },
+                "last_changed": "2022-03-14T22:12:54.056035+00:00",
+                "last_updated": "2022-03-14T22:12:54.056035+00:00",
+                "context": {
+                    "id": "e1d3f2173fcb46971984dba9c84d2df4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-14T22:20:34.620162+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.potato_moisture_front_2",
+                "state": "unknown",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Potato Moisture Front"
+                },
+                "last_changed": "2022-03-14T22:12:54.060009+00:00",
+                "last_updated": "2022-03-14T22:12:54.060009+00:00",
+                "context": {
+                    "id": "13b8ec6cb1974483313cded4abccfddd",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-14T22:20:34.620162+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.pepper_moisture_front_2",
+                "state": "unknown",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Pepper Moisture Front"
+                },
+                "last_changed": "2022-03-14T22:12:54.067926+00:00",
+                "last_updated": "2022-03-14T22:12:54.067926+00:00",
+                "context": {
+                    "id": "5c17d58ef78664488133fd393187d8a1",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-14T22:20:34.620162+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.cucumber_moisture_front_2",
+                "state": "unknown",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Cucumber Moisture Front"
+                },
+                "last_changed": "2022-03-14T22:12:54.068757+00:00",
+                "last_updated": "2022-03-14T22:12:54.068757+00:00",
+                "context": {
+                    "id": "43885134be35e0114605d5bfa009e98b",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-14T22:20:34.620162+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.irrigation_pump_waterflow_sensor",
+                "state": "unknown",
+                "attributes": {
+                    "unit_of_measurement": "l/m",
+                    "friendly_name": "Irrigation Pump Waterflow Sensor"
+                },
+                "last_changed": "2022-03-13T10:00:54.198323+00:00",
+                "last_updated": "2022-03-13T10:00:54.198323+00:00",
+                "context": {
+                    "id": "96dd51313c5d4a081617c34e97f8099e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "l/m"
+            },
+            "last_seen": "2022-03-13T15:10:25.298824+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.sink_pump_waterflow_sensor",
+                "state": "unknown",
+                "attributes": {
+                    "unit_of_measurement": "l/m",
+                    "friendly_name": "Sink Pump Waterflow Sensor"
+                },
+                "last_changed": "2022-03-13T10:00:54.199952+00:00",
+                "last_updated": "2022-03-13T10:00:54.199952+00:00",
+                "context": {
+                    "id": "a8a94c4dba05fbb7b3bb4ca461e90a91",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "l/m"
+            },
+            "last_seen": "2022-03-13T15:10:25.298824+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.cucumber_moisture_front",
+                "state": "unknown",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "Cucumber Moisture Front"
+                },
+                "last_changed": "2022-03-13T10:00:54.209259+00:00",
+                "last_updated": "2022-03-13T10:00:54.209259+00:00",
+                "context": {
+                    "id": "b060761d3371a89232d9f16b4c434164",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-13T15:10:25.298824+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "sensor.moisture",
+                "state": "unknown",
+                "attributes": {
+                    "unit_of_measurement": "%",
+                    "friendly_name": "moisture"
+                },
+                "last_changed": "2022-03-12T21:34:08.973361+00:00",
+                "last_updated": "2022-03-12T21:34:08.973361+00:00",
+                "context": {
+                    "id": "77b5a6b98acbbe449e353153f8d0ee9c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "extra_data": {
+                "native_value": null,
+                "native_unit_of_measurement": "%"
+            },
+            "last_seen": "2022-03-12T21:58:53.102295+00:00"
+        }
+    ]
+}

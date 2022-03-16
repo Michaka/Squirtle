@@ -1,0 +1,83 @@
+{
+    "version": 1,
+    "minor_version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "98943bf49223ff6d896fce354498b3a2",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "2af524df8ad7f6e4f90aefc5d332aad2",
+                "version": 1,
+                "domain": "radio_browser",
+                "title": "Radio Browser",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "onboarding",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "73b41633b3667f406f8abc657a050f15",
+                "version": 1,
+                "domain": "mqtt",
+                "title": "127.0.0.1",
+                "data": {
+                    "broker": "127.0.0.1",
+                    "port": 1883,
+                    "discovery": true
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "e0a57715d83380883a76aaee33a0b51c",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "JNY-LX1",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2022.2.1-full (2058)",
+                    "device_name": "JNY-LX1",
+                    "manufacturer": "HUAWEI",
+                    "model": "JNY-LX1",
+                    "os_name": "Android",
+                    "os_version": "29",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_websocket_channel": true
+                    },
+                    "device_id": "2847cc3a37bcb64a",
+                    "webhook_id": "86bb0e2fc5cc02ac4e4128432a49915359b8eb007c9e3e1a064a544fbb4a3fa6",
+                    "user_id": "8f9b34a98b60439c93feeac6d784114c"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.homeassistant.companion.android-2847cc3a37bcb64a",
+                "disabled_by": null
+            }
+        ]
+    }
+}

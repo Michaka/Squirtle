@@ -1,0 +1,48 @@
+- platform: mqtt
+  state_topic: "garden/tomato/valve/state"
+  command_topic: "garden/tomato/valve/switch"
+  name: "Tomato Valve"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+- platform: mqtt
+  state_topic: "garden/potato/valve/state"
+  command_topic: "garden/potato/valve/switch"
+  name: "Potato Valve"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+- platform: mqtt
+  state_topic: "garden/pepper/valve/state"
+  command_topic: "garden/pepper/valve/switch"
+  name: "Pepper Valve"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+- platform: mqtt
+  state_topic: "garden/cucumber/valve/state"
+  command_topic: "garden/cucumber/valve/switch"
+  name: "Cucumber Valve"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+- platform: mqtt
+  state_topic: "garden/watermelon/valve/state"
+  command_topic: "garden/watermelon/valve/switch"
+  name: "Watermelon Valve"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+- platform: mqtt
+  state_topic: "garden/pump/irrigation/state"
+  command_topic: "garden/pump/irrigation/switch"
+  name: "Irrigation Pump"
+  payload_on: "ON"
+  payload_off: "OFF"
+
+- platform: mqtt
+  state_topic: "garden/pump/sink/state"
+  command_topic: "garden/pump/sink/switch"
+  name: "Sink Pump"
+  payload_on: "ON"
+  payload_off: "OFF"

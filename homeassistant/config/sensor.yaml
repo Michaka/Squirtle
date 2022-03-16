@@ -1,0 +1,71 @@
+- platform: mqtt
+  unique_id: "tomato_moisture_sensor"
+  name: "Tomato Moisture"
+  state_topic: "garden/tomato/moisture"
+  unit_of_measurement: "%"
+
+- platform: mqtt
+  name: "Potato Moisture"
+  unique_id: "potato_moisture_sensor"
+  state_topic: "garden/potato/moisture"
+  unit_of_measurement: "%"
+
+- platform: mqtt
+  unique_id: "pepper_moisture_sensor"
+  name: "Pepper Moisture"
+  state_topic: "garden/pepper/moisture"
+  unit_of_measurement: "%"
+
+- platform: mqtt
+  name: "Cucumber Moisture"
+  unique_id: "cucumber_moisture_sensor"
+  state_topic: "garden/cucumber/moisture"
+  unit_of_measurement: "%"
+
+- platform: mqtt
+  name: "Watermelon Moisture"
+  unique_id: "watermelon_moisture_sensor"
+  state_topic: "garden/watermelon/moisture"
+  unit_of_measurement: "%"
+
+- platform: mqtt
+  name: "Irrigation Pump Waterflow Sensor"
+  unique_id: "irrigation_pump_flow_sensor"
+  state_topic: "garden/pump/irrigation/flow"
+  unit_of_measurement: "l/m"
+
+- platform: mqtt
+  name: "Sink Pump Waterflow Sensor"
+  unique_id: "pump_sink_flow_sensor"
+  state_topic: "garden/pump/sink/flow"
+  unit_of_measurement: "l/m"
+
+- platform: mqtt
+  name: "Container Water Level"
+  unique_id: "container_water_level_sensor"
+  state_topic: "garden/container/water/level"
+  unit_of_measurement: "%"
+
+- platform: mqtt
+  name: "Tomato Moisture Front"
+  unique_id: "tomato_front_moisture_sensor"
+  state_topic: "garden/tomato/moisture/front"
+  unit_of_measurement: "%"
+
+- platform: mqtt
+  name: "Potato Moisture Front"
+  unique_id: "potato_front_moisture_sensor"
+  state_topic: "garden/potato/moisture/front"
+  unit_of_measurement: "%"
+
+- platform: mqtt
+  name: "Pepper Moisture Front"
+  unique_id: "pepper_front_moisture_sensor"
+  state_topic: "garden/pepper/moisture/front"
+  unit_of_measurement: "%"
+
+- platform: mqtt
+  name: "Cucumber Moisture Front"
+  unique_id: "cucumber_front_moistre_sensor"
+  state_topic: "garden/cucumber/moisture/front"
+  unit_of_measurement: "%"
