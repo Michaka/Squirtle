@@ -1,0 +1,15 @@
+version: "3.0"
+services:
+  duckdns:
+    image: lscr.io/linuxserver/duckdns
+    container_name: duckdns
+    environment:
+      - PUID=1000 #optional
+      - PGID=1000 #optional
+      - TZ=Europe/Sofia
+      - SUBDOMAINS=akatim.duckdns.org
+      - TOKEN=4ef60076-f61c-41cd-82c0-2ea1178cf34b
+      - LOG_FILE=false #optional
+    volumes:
+      - /opt/duck-dns/config:/config #optional
+    restart: unless-stopped
