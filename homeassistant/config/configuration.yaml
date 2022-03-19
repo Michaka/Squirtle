@@ -1,7 +1,7 @@
 panel_iframe:
   portainer:
     title: "Portainer"
-    url: "http://192.168.0.106:9000/#/containers"
+    url: "http://127.0.0.1:9000/#/containers"
     icon: mdi:docker
     require_admin: true
 
@@ -15,8 +15,8 @@ lovelace:
   dashboards:
     lovelace-yaml:
       mode: yaml
-      title: YAML
-      icon: mdi:script
+      title: Squiurtle
+      icon: mdi:water
       show_in_sidebar: true
       filename: squirtle-dashboard.yaml
 
