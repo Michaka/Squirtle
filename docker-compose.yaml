@@ -31,3 +31,14 @@ services:
       - /opt/mosquitto/config:/mosquitto/config/
     ports:
       - 1883:1883
+
+  tailscale:
+    hostname: myservice                         # This will become the tailscale device name
+    image: tailscale/tailscale
+    volumes:
+      - "/var/lib:/var/lib"        # State data will be stored in this directory
+      - "/dev/net/tun:/dev/net/tun"           # Required for tailscale to work
+    cap_add:
+      - net_admin
+      - sys_module
+    command: tailscaled

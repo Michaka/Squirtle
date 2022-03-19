@@ -10,6 +10,17 @@ panel_iframe:
     url: "https://embed.windy.com/embed2.html?lat=41.944&lon=25.741&detailLat=41.944&detailLon=25.741&width=650&height=450&zoom=8&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"
     icon: mdi:docker
 
+lovelace:
+  mode: storage
+  dashboards:
+    lovelace-yaml:
+      mode: yaml
+      title: YAML
+      icon: mdi:script
+      show_in_sidebar: true
+      filename: squirtle-dashboard.yaml
+
+
 mqtt:
   broker: 127.0.0.1
   port: 1883

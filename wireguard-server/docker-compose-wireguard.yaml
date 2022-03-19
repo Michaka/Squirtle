@@ -11,14 +11,14 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Sofia
-      - SERVERURL=akatim.duckdns.org #optional
+      - SERVERURL=kozunak.duckdns.org #optional
       - SERVERPORT=51820 #optional
-      - PEERS=2 #optional
+      - PEERS=3 #optional
       - PEERDNS=auto #optional
       - INTERNAL_SUBNET=10.13.13.0 #optional
     volumes:
-      - /opt/wireguard-server/config:/config
-      - /opt/wireguard-server/lib/modules:/lib/modules
+      - /opt/test/wireguard-server/config:/config
+      - /opt/test/wireguard-server/lib/modules:/lib/modules
     ports:
       - 51820:51820/udp
     sysctls:

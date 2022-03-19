@@ -1,0 +1,169 @@
+title: Home
+views:
+  - theme: Backend-selected
+    icon: mdi:water
+    path: 127.0.0.1:1883
+    title: soil moisture
+    type: sidebar
+    badges: []
+    cards:
+      - square: false
+        columns: 6
+        type: grid
+        cards:
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.potato_valve_switch
+            icon: mdi:pipe-valve
+            show_state: false
+            name: Potato
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.pepper_valve_switch
+            icon: mdi:pipe-valve
+            show_state: false
+            name: Pepper
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.cucumber_valve_switch
+            icon: mdi:pipe-valve
+            show_state: false
+            name: Cucumber
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.watermelon_valve_switch
+            show_state: false
+            icon: mdi:pipe-valve
+            name: Watermelon
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.tomato_valve_switch
+            icon: mdi:pipe-valve
+            show_state: false
+            name: Tomato
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.irrigation_pump_switch
+            name: Irrigation Pump
+            icon: mdi:water-pump
+            show_state: false
+          - type: gauge
+            entity: sensor.potato_moisture
+            needle: false
+            severity:
+              green: 70
+              yellow: 50
+              red: 30
+            name: Potato
+          - type: gauge
+            entity: sensor.pepper_moisture
+            name: Pepper
+            unit: '%'
+            severity:
+              green: 70
+              yellow: 50
+              red: 30
+          - type: gauge
+            entity: sensor.cucumber_moisture
+            name: Cucumber
+            severity:
+              green: 70
+              yellow: 50
+              red: 30
+          - type: gauge
+            entity: sensor.watermelon_moisture
+            name: Watermelon
+            severity:
+              green: 70
+              yellow: 50
+              red: 30
+          - type: gauge
+            entity: sensor.tomato_moisture
+            name: Tomato
+            severity:
+              green: 70
+              yellow: 50
+              red: 30
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.sink_pump_switch
+            icon: mdi:water-pump
+        view_layout:
+          position: main
+      - type: horizontal-stack
+        cards:
+          - hours_to_show: 24
+            graph: line
+            type: sensor
+            entity: sensor.irrigation_pump_waterflow_sensor_2
+            detail: 1
+            name: Irrigation Pump Flow
+            icon: mdi:water
+          - hours_to_show: 24
+            graph: line
+            type: sensor
+            entity: sensor.sink_pump_waterflow_sensor_2
+            detail: 1
+            name: Sink Pump Flow
+            icon: mdi:water
+  - path: default_view
+    title: Home
+    cards:
+      - type: entities
+        entities:
+          - person.akatim
+      - type: weather-forecast
+        entity: weather.home
+        show_forecast: false
+      - type: entities
+        entities:
+          - entity: sensor.jny_lx1_battery_level
+          - entity: sensor.jny_lx1_battery_state
+          - entity: sensor.jny_lx1_charger_type
+          - entity: switch.potato_valve_switch
+            icon: mdi:water
+        state_color: true
+        show_header_toggle: true
+      - type: vertical-stack
+        cards:
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.irrigation_pump_switch
+            icon: mdi:water-pump
+            name: Irrigation Pump
+            show_state: true
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.sink_pump_switch
+            icon: mdi:water-pump
+            name: Sink Pump
+            show_state: true
+        view_layout:
+          position: sidebar
