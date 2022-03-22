@@ -70,17 +70,6 @@ git clone https://github.com/Michaka/Squirtle.git ~/Squirtle
 
 docker-compose -f ~Squirtle/docker-compose.yaml up -d
 
-
-
-
-
-
-
-
-
-
-
-
-touch ~/opt/squirtle/mosquitto/config/mosguitto.config
+cp -rf ~/Squirtle/mosquitto/config /opt/mosquitto/config
 
 sudo apt-get update -y
