@@ -81,6 +81,8 @@ views:
               green: 70
               yellow: 50
               red: 30
+            min: 0
+            max: 100
           - type: gauge
             entity: sensor.cucumber_moisture
             name: Cucumber
@@ -167,3 +169,149 @@ views:
             show_state: true
         view_layout:
           position: sidebar
+  - theme: Backend-selected
+    title: Phone
+    path: phone
+    icon: mdi:cellphone
+    badges: []
+    cards:
+      - square: true
+        columns: 2
+        type: grid
+        cards:
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.potato_valve_switch
+            icon: mdi:pipe-valve
+            show_state: false
+            name: Potato
+          - type: gauge
+            entity: sensor.potato_moisture
+            needle: false
+            severity:
+              green: 70
+              yellow: 50
+              red: 30
+            name: Potato
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.pepper_valve_switch
+            icon: mdi:pipe-valve
+            show_state: false
+            name: Pepper
+          - type: gauge
+            entity: sensor.pepper_moisture
+            name: Pepper
+            unit: '%'
+            severity:
+              green: 70
+              yellow: 50
+              red: 30
+            min: 0
+            max: 100
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.cucumber_valve_switch
+            icon: mdi:pipe-valve
+            show_state: false
+            name: Cucumber
+          - type: gauge
+            entity: sensor.cucumber_moisture
+            name: Cucumber
+            severity:
+              green: 70
+              yellow: 50
+              red: 30
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.watermelon_valve_switch
+            show_state: false
+            icon: mdi:pipe-valve
+            name: Watermelon
+          - type: gauge
+            entity: sensor.watermelon_moisture
+            name: Watermelon
+            severity:
+              green: 70
+              yellow: 50
+              red: 30
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.tomato_valve_switch
+            icon: mdi:pipe-valve
+            show_state: false
+            name: Tomato
+          - type: gauge
+            entity: sensor.tomato_moisture
+            name: Tomato
+            severity:
+              green: 70
+              yellow: 50
+              red: 30
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.irrigation_pump_switch
+            name: Irrigation Pump
+            icon: mdi:water-pump
+            show_state: false
+          - hours_to_show: 24
+            graph: line
+            type: sensor
+            entity: sensor.irrigation_pump_waterflow_sensor_2
+            detail: 1
+            name: Irrigation Pump Flow
+            icon: mdi:water
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.sink_pump_switch
+            icon: mdi:water-pump
+          - hours_to_show: 24
+            graph: line
+            type: sensor
+            entity: sensor.sink_pump_waterflow_sensor_2
+            detail: 1
+            name: Sink Pump Flow
+            icon: mdi:water
+  - theme: Backend-selected
+    title: Pump
+    path: pump
+    icon: mdi:water-pump
+    badges: []
+    cards:
+      - type: vertical-stack
+        cards:
+          - show_name: true
+            show_icon: true
+            type: button
+            tap_action:
+              action: toggle
+            entity: switch.sink_pump_switch
+            icon: mdi:water-pump
+          - hours_to_show: 24
+            graph: line
+            type: sensor
+            entity: sensor.sink_pump_waterflow_sensor_2
+            detail: 1
+            name: Sink Pump Flow
+            icon: mdi:water
